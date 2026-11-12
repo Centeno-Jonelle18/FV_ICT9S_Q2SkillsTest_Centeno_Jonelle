@@ -13,6 +13,24 @@ body{
    
     
 }
+
+h1 {
+
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 30px;
+}
+
+ .box {
+            background-color: white;
+            border-radius: 10px;
+            box-shadow: 3px 3px rgb(211, 208, 208);
+           margin-top: 10px;
+           margin-bottom: 10px;
+            height: 600px; 
+            width: 500px;
+            text-align: center;
+        }
+
 </style>
 <body>
     <nav class="navbar navbar-expand-sm navbar-dark bg-dark">
@@ -38,7 +56,39 @@ body{
     </div>
   </div>
 </nav>
+<br>
 
+<div class="box">
+<div class="row justify-content-center">
+    <div class="col-md-4">
+        <div class="info">
+        <br>
+        <h1>Contact Us</h1>
+       <form>
+        <label for="flname" class="form-label">Full Name</label>
+        <br>
+        <input type="fullname" class="form-control">
+        <br>
+        <form>
+        <label for="email" class="form-label">Email Address</label>
+        <br>
+        <input type="email" class="form-control">
+        <br>
+        <form>
+        <label for="subj" class="form-label">Subject</label>
+        <br>
+        <input type="subject" class="form-control">
+        <br>
+        <form>
+        <label for="msg" class="form-label">Message</label>
+        <br>
+        <textarea id="message" placeholder="Type your message here" rows="4" cols="30"></textarea>
+
+    </div>
+<br>
+<button type="button" class="btn btn-primary rounded-2">Send</button>
+</form>
+</div>
 </div>
 </body>
 </html>
